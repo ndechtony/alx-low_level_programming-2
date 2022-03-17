@@ -23,14 +23,4 @@ void more_numbers(void)
 		x++;
 		_putchar('\n');
 	}
-	{
-	if (y > 9)
-	{
-	_putchar(y / 10 + '0');
-	}
-	_putchar(y % 10 + '0');
-	y++;
-	}
-x++;
-_putchar('\n');
 }
